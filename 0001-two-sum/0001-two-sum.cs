@@ -2,23 +2,15 @@ public class Solution
 {
     public int[] TwoSum(int[] nums, int target)
     {
-        var index = 0;
-        var i = 1;
-        while (index < nums.Length - 1)
-        {
-            if (nums[index] + nums[i] == target)
-            {
-                return [index, i];
-            }
+        Dictionary<int, int> dictionary = new Dictionary<int, int>();
+        for (var i = 0; i < nums.Length; i++) {
+            dictionary[nums[i]] = i;
+        }
 
-            if (i < nums.Length - 1)
-            {
-                i++;
-            }
-            else
-            {
-                index++;
-                i = index + 1;
+        for (var i = 0; i < nums.Length; i++) {
+            var diff = target - nums[i];
+            if (dictionary.TryGetValue(diff, out int diffIndex) && diffIndex != i) {
+                return [i, diffIndex];
             }
         }
 
