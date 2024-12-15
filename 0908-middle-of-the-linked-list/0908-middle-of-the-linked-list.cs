@@ -23,19 +23,16 @@
  */
 public class Solution {
     public ListNode MiddleNode(ListNode head) {
-        var nodeCount = 1;
-        ListNode temp = head;
-        while (temp.next is not null)
+        // time compexity O(n)
+        // space compexity O(1)
+        ListNode middle = head;
+        ListNode end = head;
+        while (end is not null && end.next is not null)
         {
-            temp = temp.next;
-            nodeCount++;
+            middle = middle.next;
+            end = end.next.next;
         }
 
-        for (var i = 0; i < nodeCount / 2; i++)
-        {
-            head = head.next;
-        }
-
-        return head;
+        return middle;
     }
 }
