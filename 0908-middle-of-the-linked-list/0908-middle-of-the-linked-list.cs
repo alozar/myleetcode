@@ -7,6 +7,18 @@
  *         this.val = val;
  *         this.next = next;
  *     }
+ *     public override string ToString()
+ *     {
+ *         var result = new StringBuilder($"[{val}");
+ *         var temp = next;
+ *         while (temp is not null)
+ *         {
+ *             result.Append($",{temp.val}");
+ *             temp = temp.next;
+ *         }
+ *         result.Append("]");
+ *         return result.ToString();
+ *     }
  * }
  */
 public class Solution {
