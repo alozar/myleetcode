@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/alozar/myleetcode/tree/master/0001-two-sum) |
+| [1603-running-sum-of-1d-array](https://github.com/alozar/myleetcode/tree/master/1603-running-sum-of-1d-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -17,4 +18,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2384-root-equals-sum-of-children](https://github.com/alozar/myleetcode/tree/master/2384-root-equals-sum-of-children) |
+## Prefix Sum
+|  |
+| ------- |
+| [1603-running-sum-of-1d-array](https://github.com/alozar/myleetcode/tree/master/1603-running-sum-of-1d-array) |
 <!---LeetCode Topics End-->
