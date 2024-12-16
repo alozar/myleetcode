@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/alozar/myleetcode/tree/master/0001-two-sum) |
+| [0383-ransom-note](https://github.com/alozar/myleetcode/tree/master/0383-ransom-note) |
 ## Tree
 |  |
 | ------- |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0383-ransom-note](https://github.com/alozar/myleetcode/tree/master/0383-ransom-note) |
 | [0412-fizz-buzz](https://github.com/alozar/myleetcode/tree/master/0412-fizz-buzz) |
 ## Simulation
 |  |
@@ -53,4 +55,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0908-middle-of-the-linked-list](https://github.com/alozar/myleetcode/tree/master/0908-middle-of-the-linked-list) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/alozar/myleetcode/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->
