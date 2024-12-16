@@ -1,30 +1,22 @@
-public class Solution {
-    private Dictionary<char, int> StringToLetterDictionary(string str)
-    {
-        var letterDictionary = new Dictionary<char, int>();
-        foreach (var letter in str)
-        {
-            if (!letterDictionary.TryAdd(letter, 1))
-            {
-                letterDictionary[letter] += 1;
-            }
-        }
-
-        return letterDictionary;
-    }
-
+public class Solution
+{
     public bool CanConstruct(string ransomNote, string magazine)
     {
-        var ransomNoteDic = StringToLetterDictionary(ransomNote);
-        var magazineDic = StringToLetterDictionary(magazine);
-
-        foreach (var ransomNotePair in ransomNoteDic)
+        var magazineDic = new Dictionary<char, int>();
+        foreach (var letter  in magazine)
         {
-            if (!magazineDic.ContainsKey(ransomNotePair.Key)
-                || ransomNotePair.Value > magazineDic[ransomNotePair.Key])
+            var letterCount = magazineDic.GetValueOrDefault(letter, 0);
+            magazineDic[letter] = letterCount + 1;
+        }
+
+        foreach (var letter in ransomNote)
+        {
+            var letterCount = magazineDic.GetValueOrDefault(letter, 0);
+            if (letterCount == 0)
             {
                 return false;
             }
+            magazineDic[letter] = letterCount - 1;
         }
 
         return true;
