@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/alozar/myleetcode/tree/master/0001-two-sum) |
 | [1019-squares-of-a-sorted-array](https://github.com/alozar/myleetcode/tree/master/1019-squares-of-a-sorted-array) |
+| [1168-duplicate-zeros](https://github.com/alozar/myleetcode/tree/master/1168-duplicate-zeros) |
 | [1603-running-sum-of-1d-array](https://github.com/alozar/myleetcode/tree/master/1603-running-sum-of-1d-array) |
 | [1791-richest-customer-wealth](https://github.com/alozar/myleetcode/tree/master/1791-richest-customer-wealth) |
 ## Hash Table
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0908-middle-of-the-linked-list](https://github.com/alozar/myleetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/alozar/myleetcode/tree/master/1019-squares-of-a-sorted-array) |
+| [1168-duplicate-zeros](https://github.com/alozar/myleetcode/tree/master/1168-duplicate-zeros) |
 ## Counting
 |  |
 | ------- |
