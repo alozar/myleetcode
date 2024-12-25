@@ -1,26 +1,17 @@
-public class Solution {
-    public int[] ReplaceElements(int[] arr) {
-        int index = 0;
-        int currentMax = 0;
-        for (int i = arr.Length - 1; i + 1 > index; i--)
+public class Solution
+{
+    public int[] ReplaceElements(int[] arr)
+    {
+        int max = -1;
+        for (int i = arr.Length - 1; i >= 0; i--)
         {
-            if (index == arr.Length - 1)
+            var temp = arr[i];
+            arr[i] = max;
+            if (temp > max)
             {
-                break;
-            }
-            if (currentMax < arr[i] && i > index)
-            {
-                currentMax = arr[i];
-            }
-            if (index == i)
-            {
-                arr[i] = currentMax;
-                index++;
-                i = arr.Length;
-                currentMax = 0;
+                max = temp;
             }
         }
-        arr[index] = -1;
         return arr;
     }
 }
