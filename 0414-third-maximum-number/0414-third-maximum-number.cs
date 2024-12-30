@@ -2,26 +2,12 @@ public class Solution
 {
     public int ThirdMax(int[] nums)
     {
-        HashSet<int> maxs = new(3);
-        int thridMax = 0;
-        for (int i = 0; i < nums.Length; i++)
+        var list = nums.Distinct().ToList();
+        list.Sort();
+        if (list.Count < 3)
         {
-            if (maxs.Count < 3)
-            {
-                maxs.Add(nums[i]);
-                continue;
-            }
-            if (maxs.Contains(nums[i]))
-            {
-                continue;
-            }
-            thridMax = maxs.Min();
-            if (thridMax < nums[i])
-            {
-                maxs.Remove(thridMax);
-                maxs.Add(nums[i]);
-            }
+            return list[list.Count - 1];
         }
-        return maxs.Count < 3 ? maxs.Max() : maxs.Min();
+        return list[list.Count - 3];
     }
 }
