@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/alozar/myleetcode/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/alozar/myleetcode/tree/master/0088-merge-sorted-array) |
 | [0283-move-zeroes](https://github.com/alozar/myleetcode/tree/master/0283-move-zeroes) |
+| [0414-third-maximum-number](https://github.com/alozar/myleetcode/tree/master/0414-third-maximum-number) |
 | [0941-sort-array-by-parity](https://github.com/alozar/myleetcode/tree/master/0941-sort-array-by-parity) |
 | [0978-valid-mountain-array](https://github.com/alozar/myleetcode/tree/master/0978-valid-mountain-array) |
 | [1019-squares-of-a-sorted-array](https://github.com/alozar/myleetcode/tree/master/1019-squares-of-a-sorted-array) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/alozar/myleetcode/tree/master/0088-merge-sorted-array) |
+| [0414-third-maximum-number](https://github.com/alozar/myleetcode/tree/master/0414-third-maximum-number) |
 | [0941-sort-array-by-parity](https://github.com/alozar/myleetcode/tree/master/0941-sort-array-by-parity) |
 | [1019-squares-of-a-sorted-array](https://github.com/alozar/myleetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1137-height-checker](https://github.com/alozar/myleetcode/tree/master/1137-height-checker) |
