@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0941-sort-array-by-parity](https://github.com/alozar/myleetcode/tree/master/0941-sort-array-by-parity) |
 | [0978-valid-mountain-array](https://github.com/alozar/myleetcode/tree/master/0978-valid-mountain-array) |
 | [1019-squares-of-a-sorted-array](https://github.com/alozar/myleetcode/tree/master/1019-squares-of-a-sorted-array) |
+| [1137-height-checker](https://github.com/alozar/myleetcode/tree/master/1137-height-checker) |
 | [1168-duplicate-zeros](https://github.com/alozar/myleetcode/tree/master/1168-duplicate-zeros) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/alozar/myleetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/alozar/myleetcode/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -87,9 +88,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/alozar/myleetcode/tree/master/0088-merge-sorted-array) |
 | [0941-sort-array-by-parity](https://github.com/alozar/myleetcode/tree/master/0941-sort-array-by-parity) |
 | [1019-squares-of-a-sorted-array](https://github.com/alozar/myleetcode/tree/master/1019-squares-of-a-sorted-array) |
+| [1137-height-checker](https://github.com/alozar/myleetcode/tree/master/1137-height-checker) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/alozar/myleetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 ## Binary Search
 |  |
 | ------- |
 | [1468-check-if-n-and-its-double-exist](https://github.com/alozar/myleetcode/tree/master/1468-check-if-n-and-its-double-exist) |
+## Counting Sort
+|  |
+| ------- |
+| [1137-height-checker](https://github.com/alozar/myleetcode/tree/master/1137-height-checker) |
 <!---LeetCode Topics End-->
