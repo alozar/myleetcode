@@ -1,16 +1,16 @@
 public class MyCircularQueue
 {
     private readonly int[] _array;
-    private int _count;
-    private int _headIndex;
-    private int _tailIndex;
+    private int _size;
+    private int _head;
+    private int _tail;
 
     public MyCircularQueue(int k)
     {
         _array = new int[k];
-        _count = 0;
-        _headIndex = -1;
-        _tailIndex = -1;
+        _size = k;
+        _head = -1;
+        _tail = -1;
     }
 
 
@@ -20,28 +20,20 @@ public class MyCircularQueue
     /// <returns>Возврат, true если операция прошла успешно.</returns>
     public bool EnQueue(int value)
     {
-        if (_tailIndex < _array.Length - 1
-            && (_headIndex <= _tailIndex || _tailIndex + 1 < _headIndex))
+        if (IsFull())
         {
-            if (_headIndex < 0)
-            {
-                _headIndex++;
-            }
-            _tailIndex++;
-            _count++;
-            _array[_tailIndex] = value;
-            return true;
+            return false;
         }
 
-        if (_tailIndex == _array.Length - 1 && _headIndex > 0)
+        if (IsEmpty())
         {
-            _tailIndex = 0;
-            _count++;
-            _array[_tailIndex] = value;
-            return true;
+            _head = 0;
         }
 
-        return false;
+        _tail = (_tail + 1) % _size;
+        _array[_tail] = value;
+
+        return true;
     }
 
     /// <summary>
@@ -50,34 +42,21 @@ public class MyCircularQueue
     /// <returns>Возврат, true если операция прошла успешно.</returns>
     public bool DeQueue()
     {
-        if (_headIndex < 0)
+        if (IsEmpty())
         {
             return false;
         }
 
-        if (_headIndex == _tailIndex)
+        if (_head == _tail)
         {
-            _headIndex = -1;
-            _tailIndex = -1;
-            _count = 0;
+            _head = -1;
+            _tail = -1;
             return true;
         }
 
-        if (_headIndex < _tailIndex || _headIndex < _array.Length - 1)
-        {
-            _headIndex++;
-            _count--;
-            return true;
-        }
+        _head = (_head + 1) % _size;
 
-        if (_headIndex == _array.Length - 1)
-        {
-            _headIndex = 0;
-            _count--;
-            return true;
-        }
-
-        return false;
+        return true;
     }
 
     /// <summary>
@@ -89,7 +68,7 @@ public class MyCircularQueue
         {
             return -1;
         }
-        return _array[_headIndex];
+        return _array[_head];
     }
 
     /// <summary>
@@ -101,7 +80,7 @@ public class MyCircularQueue
         {
             return -1;
         }
-        return _array[_tailIndex];
+        return _array[_tail];
     }
 
     /// <summary>
@@ -109,7 +88,7 @@ public class MyCircularQueue
     /// </summary>
     public bool IsEmpty()
     {
-        return _count == 0;
+        return _head == -1;
     }
 
     /// <summary>
@@ -117,17 +96,6 @@ public class MyCircularQueue
     /// </summary>
     public bool IsFull()
     {
-        return _count == _array.Length;
+        return (_tail + 1) % _size == _head;
     }
 }
-
-/**
- * Your MyCircularQueue object will be instantiated and called as such:
- * MyCircularQueue obj = new MyCircularQueue(k);
- * bool param_1 = obj.EnQueue(value);
- * bool param_2 = obj.DeQueue();
- * int param_3 = obj.Front();
- * int param_4 = obj.Rear();
- * bool param_5 = obj.IsEmpty();
- * bool param_6 = obj.IsFull();
- */
