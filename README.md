@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/alozar/myleetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/alozar/myleetcode/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/alozar/myleetcode/tree/master/0088-merge-sorted-array) |
+| [0200-number-of-islands](https://github.com/alozar/myleetcode/tree/master/0200-number-of-islands) |
 | [0283-move-zeroes](https://github.com/alozar/myleetcode/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/alozar/myleetcode/tree/master/0414-third-maximum-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/alozar/myleetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/alozar/myleetcode/tree/master/0200-number-of-islands) |
 | [1791-richest-customer-wealth](https://github.com/alozar/myleetcode/tree/master/1791-richest-customer-wealth) |
 ## Math
 |  |
@@ -112,4 +114,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0860-design-circular-queue](https://github.com/alozar/myleetcode/tree/master/0860-design-circular-queue) |
+## Depth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/alozar/myleetcode/tree/master/0200-number-of-islands) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/alozar/myleetcode/tree/master/0200-number-of-islands) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/alozar/myleetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
