@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/alozar/myleetcode/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/alozar/myleetcode/tree/master/0414-third-maximum-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/alozar/myleetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0753-open-the-lock](https://github.com/alozar/myleetcode/tree/master/0753-open-the-lock) |
 | [0860-design-circular-queue](https://github.com/alozar/myleetcode/tree/master/0860-design-circular-queue) |
 | [0941-sort-array-by-parity](https://github.com/alozar/myleetcode/tree/master/0941-sort-array-by-parity) |
 | [0978-valid-mountain-array](https://github.com/alozar/myleetcode/tree/master/0978-valid-mountain-array) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/alozar/myleetcode/tree/master/0013-roman-to-integer) |
 | [0383-ransom-note](https://github.com/alozar/myleetcode/tree/master/0383-ransom-note) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/alozar/myleetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0753-open-the-lock](https://github.com/alozar/myleetcode/tree/master/0753-open-the-lock) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/alozar/myleetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 ## Tree
 |  |
@@ -60,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/alozar/myleetcode/tree/master/0013-roman-to-integer) |
 | [0383-ransom-note](https://github.com/alozar/myleetcode/tree/master/0383-ransom-note) |
 | [0412-fizz-buzz](https://github.com/alozar/myleetcode/tree/master/0412-fizz-buzz) |
+| [0753-open-the-lock](https://github.com/alozar/myleetcode/tree/master/0753-open-the-lock) |
 ## Simulation
 |  |
 | ------- |
@@ -122,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/alozar/myleetcode/tree/master/0200-number-of-islands) |
+| [0753-open-the-lock](https://github.com/alozar/myleetcode/tree/master/0753-open-the-lock) |
 ## Union Find
 |  |
 | ------- |
