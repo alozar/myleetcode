@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/alozar/myleetcode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/alozar/myleetcode/tree/master/0013-roman-to-integer) |
+| [0279-perfect-squares](https://github.com/alozar/myleetcode/tree/master/0279-perfect-squares) |
 | [0412-fizz-buzz](https://github.com/alozar/myleetcode/tree/master/0412-fizz-buzz) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/alozar/myleetcode/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 ## String
@@ -125,9 +126,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/alozar/myleetcode/tree/master/0200-number-of-islands) |
+| [0279-perfect-squares](https://github.com/alozar/myleetcode/tree/master/0279-perfect-squares) |
 | [0753-open-the-lock](https://github.com/alozar/myleetcode/tree/master/0753-open-the-lock) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/alozar/myleetcode/tree/master/0200-number-of-islands) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0279-perfect-squares](https://github.com/alozar/myleetcode/tree/master/0279-perfect-squares) |
 <!---LeetCode Topics End-->
