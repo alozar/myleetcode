@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/alozar/myleetcode/tree/master/0155-min-stack) |
 | [0860-design-circular-queue](https://github.com/alozar/myleetcode/tree/master/0860-design-circular-queue) |
 ## Queue
 |  |
@@ -139,4 +140,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0279-perfect-squares](https://github.com/alozar/myleetcode/tree/master/0279-perfect-squares) |
+## Stack
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/alozar/myleetcode/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
