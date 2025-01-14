@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/alozar/myleetcode/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/alozar/myleetcode/tree/master/0414-third-maximum-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/alozar/myleetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0739-daily-temperatures](https://github.com/alozar/myleetcode/tree/master/0739-daily-temperatures) |
 | [0753-open-the-lock](https://github.com/alozar/myleetcode/tree/master/0753-open-the-lock) |
 | [0860-design-circular-queue](https://github.com/alozar/myleetcode/tree/master/0860-design-circular-queue) |
 | [0941-sort-array-by-parity](https://github.com/alozar/myleetcode/tree/master/0941-sort-array-by-parity) |
@@ -146,4 +147,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/alozar/myleetcode/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/alozar/myleetcode/tree/master/0155-min-stack) |
+| [0739-daily-temperatures](https://github.com/alozar/myleetcode/tree/master/0739-daily-temperatures) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/alozar/myleetcode/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
